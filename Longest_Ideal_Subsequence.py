@@ -19,14 +19,16 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        
-# First we will create an array of size 26 with all 0's 
-# Then we consider checking only the elements of difference k
-# Let k=2
-# for c=2 we check only the value of c=2,c=1,c=0 on left and c=3, c=4 on right i.e from element-k to element+k
+ """
+ First we will create an array of size 26 with all 0's 
+Then we consider checking only the elements of difference k
+Let k=2
+for c=2 we check only the value of c=2,c=1,c=0 on left and c=3, c=4 on right i.e from element-k to element+k
 
-# And why ans=1 is initialized because if string = az which means we can't find any letters with difference <=k 
-# then the ans should be 1 right. So that's the reason
+And why ans=1 is initialized because if string = az which means we can't find any letters with difference <=k 
+then the ans should be 1 right. So that's the reason
+ """       
+
 
 
 
