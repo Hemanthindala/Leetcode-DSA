@@ -5,3 +5,5 @@ for i in range(n):
     if l.count(1)>=2:
         counter=counter+1
 print(counter)
+
+#Link:https://codeforces.com/problemset/problem/231/A
